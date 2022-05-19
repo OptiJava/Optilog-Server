@@ -22,6 +22,8 @@ public class Server {
                 DatagramPacket packet = new DatagramPacket(buffer, buffer.length);
                 ds.receive(packet);
                 String s = new String(packet.getData(), packet.getOffset(), packet.getLength(), StandardCharsets.UTF_8);
+                s = "(Server)" + s;
+                
                 String printLvl = s.substring(s.length() - 4);
                 printLvl = printLvl.toLowerCase();
                 if ("info".equals(printLvl)) {
