@@ -1,0 +1,12 @@
+{
+  "printInfo": true,
+  "printError": true,
+  "printPath": "D:\\Program\\Feishu\\app\\assets\\object\\apps\\Intellij-IDEA\\Project\\Optilog-Client\\src\\test\\resources\\logs",
+  "printWarn": true,
+  "printDebug": true,
+  "consoleInfo": true,
+  "consoleDebug":true,
+  "consoleError": true,
+  "consoleWarn":true,
+  "socketNumber":65535
+}
