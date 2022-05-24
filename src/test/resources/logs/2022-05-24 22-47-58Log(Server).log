@@ -1,0 +1,14 @@
+(Server)[2022-05-24|22:48:08(53))][com.optilog.OptilogTest main(OptilogTest.java:8)/main] info:---常规输出测试---
+(Server)[2022-05-24|22:48:08(54))][com.optilog.OptilogTest main(OptilogTest.java:9)/main] info:infojava.lang.Object@2b9627bc
+(Server)[2022-05-24|22:48:08(55))][com.optilog.OptilogTest main(OptilogTest.java:10)/main] Error:error
+(Server)[2022-05-24|22:48:08(55))][com.optilog.OptilogTest main(OptilogTest.java:11)/main] debug:debug32.0
+(Server)[2022-05-24|22:48:08(56))][com.optilog.OptilogTest main(OptilogTest.java:12)/main] FATAL:null
+(Server)[2022-05-24|22:48:08(56))][com.optilog.OptilogTest main(OptilogTest.java:13)/main] FATAL:null
+(Server)[2022-05-24|22:48:08(57))][com.optilog.OptilogTest main(OptilogTest.java:15)/main] info:---占位符---
+(Server)[2022-05-24|22:48:08(58))][com.optilog.OptilogTest main(OptilogTest.java:16)/main] info:1 2
+(Server)[2022-05-24|22:48:08(59))][com.optilog.OptilogTest main(OptilogTest.java:17)/main] Error:1 1
+(Server)[2022-05-24|22:48:08(59))][com.optilog.OptilogTest main(OptilogTest.java:19)/main] debug:1 2 #3
+(Server)[2022-05-24|22:48:08(60))][com.optilog.OptilogTest main(OptilogTest.java:20)/main] FATAL:1 #2
+(Server)[2022-05-24|22:48:08(60))][com.optilog.OptilogTest test(OptilogTest.java:26)/main] info:info(test)
+(Server)[2022-05-24|22:48:08(61))][com.optilog.OptilogTest test(OptilogTest.java:28)/main] info:$
+(Server)[2022-05-24|22:48:08(61))][com.optilog.OptilogTest lambda$test$0(OptilogTest.java:27)/Thread-0] info:hello
