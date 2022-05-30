@@ -60,8 +60,8 @@ public class Server {
                     }
                 }
                 
-                if ("warn".equals(printLvl)) {
-                    s = s.substring(0, s.length() - 4);
+                if ("ning".equals(printLvl)) {
+                    s = s.substring(0, s.length() - 7);
                     if (SettingFiles.sfwarn) {
                         System.out.print(s);
                     }
@@ -110,6 +110,7 @@ public class Server {
                         }
                     }
                 }
+                
             } while (isServerRun);
         } catch (IOException var10) {
             System.out.println("OptilogServer Note: Failed to start server");
