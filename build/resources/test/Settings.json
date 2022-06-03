@@ -1,7 +1,7 @@
 {
   "printInfo": true,
   "printError": true,
-  "printPath": "D:\\Program\\Feishu\\app\\assets\\object\\apps\\Intellij-IDEA\\Project\\Optilog-Server\\src\\test\\resources\\logs",
+  "printPath": "D:\\Program\\Project\\resources\\app\\Git\\Projects\\Optilog-Server\\src\\test\\resources\\logs",
   "printWarn": true,
   "printDebug": true,
   "printFatal": true,
