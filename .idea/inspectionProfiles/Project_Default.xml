@@ -7,6 +7,9 @@
     <inspection_tool class="AlibabaAvoidPatternCompileInMethod" enabled="true" level="CRITICAL" enabled_by_default="true" />
     <inspection_tool class="AlibabaClassMustHaveAuthor" enabled="false" level="MAJOR" enabled_by_default="false" />
     <inspection_tool class="AlibabaCommentsMustBeJavadocFormat" enabled="false" level="MAJOR" enabled_by_default="false" />
+    <inspection_tool class="ClassWithoutNoArgConstructor" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="m_ignoreClassesWithNoConstructors" value="true" />
+    </inspection_tool>
     <inspection_tool class="DanglingJavadoc" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JavaDoc" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="TOP_LEVEL_CLASS_OPTIONS">
@@ -44,7 +47,7 @@
     </inspection_tool>
     <inspection_tool class="JavadocLinkAsPlainText" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="JavadocReference" enabled="false" level="ERROR" enabled_by_default="false" />
-    <inspection_tool class="MarkedForRemoval" enabled="true" level="CRITICAL" enabled_by_default="true" />
+    <inspection_tool class="MarkedForRemoval" enabled="true" level="WARNING" enabled_by_default="true" />
     <inspection_tool class="MissingJavadoc" enabled="false" level="WARNING" enabled_by_default="false">
       <option name="PACKAGE_SETTINGS">
         <Options>
@@ -83,5 +86,7 @@
       <option name="ignoreAnonymousClassMethods" value="false" />
     </inspection_tool>
     <inspection_tool class="PackageInfoWithoutPackage" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PropertyValueSetToItself" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SuspiciousGetterSetter" enabled="true" level="WARNING" enabled_by_default="true" />
   </profile>
 </component>
